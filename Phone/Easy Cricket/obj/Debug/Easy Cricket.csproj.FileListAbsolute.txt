@@ -1,0 +1,95 @@
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\Assets\ApplicationIcon.png
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\Easy Cricket.dll
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\Easy Cricket.pdb
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\AppManifest.xaml
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\Properties\WMAppManifest.xml
+E:\suar\Easy Cricket\Easy Cricket\Bin\Debug\Easy_Cricket_Debug_AnyCPU.xap
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\App.g.cs
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\MainPage.g.cs
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.g.resources
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\Easy_Cricket.Resources.AppResources.resources
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.csproj.GenerateResource.Cache
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.dll
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.pdb
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\XapCacheFile.xml
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\about.g.cs
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\instructions.g.cs
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\entry.g.cs
+E:\suar\Easy Cricket\Easy Cricket\obj\Debug\Play.g.cs
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\ApplicationIcon.png
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Easy Cricket.dll
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Easy Cricket.pdb
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\AppManifest.xaml
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Properties\WMAppManifest.xml
+E:\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Easy_Cricket_Debug_AnyCPU.xap
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\App.g.cs
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\about.g.cs
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\entry.g.cs
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\instructions.g.cs
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\MainPage.g.cs
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Play.g.cs
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.g.resources
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy_Cricket.Resources.AppResources.resources
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.csproj.GenerateResource.Cache
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.dll
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.pdb
+E:\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\XapCacheFile.xml
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\ApplicationIcon.png
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Easy Cricket.dll
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Easy Cricket.pdb
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\AppManifest.xaml
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Properties\WMAppManifest.xml
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Easy_Cricket_Debug_AnyCPU.xap
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\RateMyApp.dll
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\App.g.cs
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\about.g.cs
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\entry.g.cs
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\instructions.g.cs
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\MainPage.g.cs
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Play.g.cs
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.g.resources
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy_Cricket.Resources.AppResources.resources
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.csproj.GenerateResource.Cache
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.dll
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.pdb
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\XapCacheFile.xml
+E:\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.csprojResolveAssemblyReference.cache
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\ApplicationIcon.png
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Easy Cricket.dll
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Easy Cricket.pdb
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\AppManifest.xaml
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Properties\WMAppManifest.xml
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\Bin\Debug\Easy_Cricket_Debug_AnyCPU.xap
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.csprojResolveAssemblyReference.cache
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\App.g.cs
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\about.g.cs
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\entry.g.cs
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\instructions.g.cs
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\MainPage.g.cs
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Play.g.cs
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.g.resources
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy_Cricket.Resources.AppResources.resources
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.csproj.GenerateResource.Cache
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.dll
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\Easy Cricket.pdb
+E:\apps\royalty\dvlp apps\Easy Cricket\Easy Cricket\obj\Debug\XapCacheFile.xml

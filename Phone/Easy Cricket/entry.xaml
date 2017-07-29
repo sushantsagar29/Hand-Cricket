@@ -1,0 +1,58 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Easy_Cricket.entry"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid Background="Green">
+
+
+        <TextBlock Text="Enter your name" Height="70" Width="310" Margin="20,49,150,649" FontSize="30"/>
+        <TextBox x:Name="enter_name" Text="You" HorizontalAlignment="Center" Height="70" Width="310" 
+                  VerticalAlignment="Center" FontSize="20" Foreground="Black" Margin="6,79,164,619"
+                />
+
+        <TextBlock Text="Choose wickets" Height="70" Width="310" Margin="20,155,150,543" FontSize="30"/>
+        <ComboBox x:Name="enter_wicket" Height="99" Width="310" HorizontalAlignment="Center"  VerticalAlignment="Center" 
+                  FontSize="20" SelectedItem="1" Margin="23,196,147,473">
+
+            <ComboBoxItem x:Name="one" Content="1" FontSize="22" Tap="one_Tap"/>
+            <ComboBoxItem x:Name="two" Content="2" FontSize="22" Tap="two_Tap"/>
+            <ComboBoxItem x:Name="three" Content="3" FontSize="22" Tap="three_Tap"/>
+
+
+        </ComboBox>
+
+        <RadioButton
+            x:Name="heads" GroupName="toss" Content="Heads" Margin="20,281,293,389" IsChecked="True"/>
+
+        <RadioButton
+            x:Name="tails" GroupName="toss" Content="Tail" Margin="199,295,114,389"/>
+
+        <Button x:Name="toss" Content="Toss" Foreground="Black" Background="Red" FontSize="30" Click="toss_Click" Margin="39,365,232,324"/>
+
+        <TextBlock x:Name="result" Foreground="Blue" Text="" Margin="52,463,135,237"
+                   FontSize="35" TextAlignment="Center"/>
+
+        <RadioButton x:Name="bat" Content="Bat" GroupName="selection" Margin="23,522,293,169" IsChecked="True"
+                     Visibility="Collapsed"/>
+
+        <RadioButton x:Name="bowl" Content="Bowl" GroupName="selection" Margin="217,522,114,169" Visibility="Collapsed"/>
+
+        <TextBlock x:Name="comment" Foreground="White" Text="Computer chooses to bat" Margin="23,522,85,178"
+                   FontSize="25" TextAlignment="Center" Visibility="Collapsed"/>
+
+        <Button x:Name="next" Content="GO" Foreground="Black" Background="Blue" FontSize="30"
+                Width="200" Click="next_Click"  Margin="166,619,114,68" Visibility="Collapsed"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>
