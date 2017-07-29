@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SUSHANTSAGAR</Machine>
+    <WindowsUser>sushant sagar</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>63579sushantsagar.HANDCRICKET</PackageIdentityName>
+    <IntermediateOutputPath>D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>096F8DEB402E069C8416E06BC3C6876CB5DB5D2AAA878233AFE186CD679D174C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>63579sushantsagar.HANDCRICKET_1.1.1.2_neutral__348c2cyx0can6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>63579sushantsagar.HANDCRICKET_348c2cyx0can6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>63579sushantsagar.HANDCRICKET</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=BBA6BE7F-05E5-4787-972C-E59A69995A9B</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.1.2</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-14T12:13:58.138</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.exe">
+      <PackagePath>hand cricket.exe</PackagePath>
+      <Modified>2015-03-14T12:13:57.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\150X150.png">
+      <PackagePath>Assets\150X150.png</PackagePath>
+      <Modified>2013-12-20T08:17:08.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\30X30.png">
+      <PackagePath>Assets\30X30.png</PackagePath>
+      <Modified>2013-12-20T08:23:02.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\310X150.scale-100.png">
+      <PackagePath>Assets\310X150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-20T08:17:08.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\50X50.png">
+      <PackagePath>Assets\50X50.png</PackagePath>
+      <Modified>2013-12-20T09:39:38.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\arrow.png">
+      <PackagePath>Assets\arrow.png</PackagePath>
+      <Modified>2013-12-18T15:08:51.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\Cricket-icon.png">
+      <PackagePath>Assets\Cricket-icon.png</PackagePath>
+      <Modified>2013-12-19T14:07:51.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\fist.png">
+      <PackagePath>Assets\fist.png</PackagePath>
+      <Modified>2013-12-17T20:57:17.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\gameplay.png">
+      <PackagePath>Assets\gameplay.png</PackagePath>
+      <Modified>2013-12-18T16:50:10.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\game_mainback.png">
+      <PackagePath>Assets\game_mainback.png</PackagePath>
+      <Modified>2013-12-17T19:55:10.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\green.png">
+      <PackagePath>Assets\green.png</PackagePath>
+      <Modified>2013-12-17T20:55:06.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\Hands-Four-fingers-icon.png">
+      <PackagePath>Assets\Hands-Four-fingers-icon.png</PackagePath>
+      <Modified>2013-12-17T20:19:54.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\Hands-One-finger-icon.png">
+      <PackagePath>Assets\Hands-One-finger-icon.png</PackagePath>
+      <Modified>2013-12-17T20:19:54.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\Hands-Three-fingers-icon.png">
+      <PackagePath>Assets\Hands-Three-fingers-icon.png</PackagePath>
+      <Modified>2013-12-17T20:19:54.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\Hands-Thumb-up-icon.png">
+      <PackagePath>Assets\Hands-Thumb-up-icon.png</PackagePath>
+      <Modified>2013-12-17T20:19:54.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\Hands-Two-fingers-icon.png">
+      <PackagePath>Assets\Hands-Two-fingers-icon.png</PackagePath>
+      <Modified>2013-12-17T20:19:54.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\happy-icon.png">
+      <PackagePath>Assets\happy-icon.png</PackagePath>
+      <Modified>2013-12-19T14:34:26.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\head.png">
+      <PackagePath>Assets\head.png</PackagePath>
+      <Modified>2013-12-18T15:08:51.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-20T08:17:08.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-20T08:23:02.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2013-12-17T19:21:19.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\splash_screen .scale-100.png">
+      <PackagePath>Assets\splash_screen .scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-19T09:39:27.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-20T09:39:38.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\success-icon.png">
+      <PackagePath>Assets\success-icon.png</PackagePath>
+      <Modified>2013-12-19T18:01:12.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\tail.png">
+      <PackagePath>Assets\tail.png</PackagePath>
+      <Modified>2013-12-18T15:08:51.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\try-again.png">
+      <PackagePath>Assets\try-again.png</PackagePath>
+      <Modified>2013-12-19T14:34:26.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\tada.wav">
+      <PackagePath>Assets\tada.wav</PackagePath>
+      <Modified>2013-12-19T18:08:14.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\Assets\Windows Error.wav">
+      <PackagePath>Assets\Windows Error.wav</PackagePath>
+      <Modified>2013-12-19T18:08:14.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-02-20T19:26:14.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\About us.xbf">
+      <PackagePath>About us.xbf</PackagePath>
+      <Modified>2014-02-20T19:26:14.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\Credits.xbf">
+      <PackagePath>Credits.xbf</PackagePath>
+      <Modified>2014-02-20T19:26:14.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\entry.xbf">
+      <PackagePath>entry.xbf</PackagePath>
+      <Modified>2014-05-03T21:54:39.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\game.xbf">
+      <PackagePath>game.xbf</PackagePath>
+      <Modified>2014-02-20T19:26:14.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\Help.xbf">
+      <PackagePath>Help.xbf</PackagePath>
+      <Modified>2014-02-20T19:26:14.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-02-20T19:26:14.473</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\Privacy Policy.xbf">
+      <PackagePath>Privacy Policy.xbf</PackagePath>
+      <Modified>2014-02-20T19:26:14.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\summary.xbf">
+      <PackagePath>summary.xbf</PackagePath>
+      <Modified>2014-02-20T19:26:14.475</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\toss.xbf">
+      <PackagePath>toss.xbf</PackagePath>
+      <Modified>2015-03-14T12:13:57.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.xr.xml">
+      <PackagePath>hand cricket.xr.xml</PackagePath>
+      <Modified>2014-05-03T21:54:39.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-14T12:13:58.009</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

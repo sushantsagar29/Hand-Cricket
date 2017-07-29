@@ -1,0 +1,477 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="hand_cricket.game"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:hand_cricket"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"                    >
+    <Page.Resources>
+        <Style x:Key="zerodeep1" TargetType="Button">
+            <Setter Property="Background" Value="{ThemeResource ButtonBackgroundThemeBrush}"/>
+            <Setter Property="Foreground" Value="{ThemeResource ButtonForegroundThemeBrush}"/>
+            <Setter Property="BorderBrush" Value="{ThemeResource ButtonBorderThemeBrush}"/>
+            <Setter Property="BorderThickness" Value="{ThemeResource ButtonBorderThemeThickness}"/>
+            <Setter Property="Padding" Value="12,4,12,4"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPointerOverBackgroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPointerOverForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPressedForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledBackgroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledBorderThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                    <VisualState x:Name="PointerFocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="3">
+                                <ContentPresenter x:Name="ContentPresenter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding ContentTemplate}" ContentTransitions="{TemplateBinding ContentTransitions}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                            <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="sagarnext" TargetType="Button">
+            <Setter Property="Background" Value="{ThemeResource ButtonBackgroundThemeBrush}"/>
+            <Setter Property="Foreground" Value="{ThemeResource ButtonForegroundThemeBrush}"/>
+            <Setter Property="BorderBrush" Value="{ThemeResource ButtonBorderThemeBrush}"/>
+            <Setter Property="BorderThickness" Value="{ThemeResource ButtonBorderThemeThickness}"/>
+            <Setter Property="Padding" Value="12,4,12,4"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Red"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <!--the value here is changed to red so that when button is hovered it gets red-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPointerOverForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <!--the background property here has been removed so that when the button is presses the background doesnt change-->
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPressedForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                    <VisualState x:Name="PointerFocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="3">
+                                <ContentPresenter x:Name="ContentPresenter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding ContentTemplate}" ContentTransitions="{TemplateBinding ContentTransitions}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                            <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="nextballsagar" TargetType="Button">
+            <Setter Property="Background" Value="{ThemeResource ButtonBackgroundThemeBrush}"/>
+            <Setter Property="Foreground" Value="{ThemeResource ButtonForegroundThemeBrush}"/>
+            <Setter Property="BorderBrush" Value="{ThemeResource ButtonBorderThemeBrush}"/>
+            <Setter Property="BorderThickness" Value="{ThemeResource ButtonBorderThemeThickness}"/>
+            <Setter Property="Padding" Value="12,4,12,4"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPointerOverForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPressedForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledBackgroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledBorderThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                    <VisualState x:Name="PointerFocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="3">
+                                <ContentPresenter x:Name="ContentPresenter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding ContentTemplate}" ContentTransitions="{TemplateBinding ContentTransitions}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                            <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/gameplay.png"/>
+        </Grid.Background>
+
+        <Grid x:Name="options" HorizontalAlignment="Left" Height="120" Margin="325,50,0,0" VerticalAlignment="Top" Width="720" Visibility="Visible" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="120"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="120"/>
+            </Grid.ColumnDefinitions>
+
+            <Rectangle Height="120" Width="120" Grid.Row="0" Grid.Column="0">
+                <Rectangle.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/fist.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button x:ConnectionId='5' x:Name="zero" Height="120" Width="120" Grid.Row="0" Grid.Column="0" BorderThickness="0" Style="{StaticResource zerodeep1}"                    >
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/fist.png"/>
+                </Button.Background>
+            </Button>
+
+            <Rectangle Height="120" Width="120" Grid.Row="0" Grid.Column="1">
+                <Rectangle.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Hands-One-finger-icon.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button x:ConnectionId='6' x:Name="single" Height="120" Width="120" Grid.Row="0" Grid.Column="1" BorderThickness="0" Style="{StaticResource zerodeep1}"                      >
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Hands-One-finger-icon.png"/>
+                </Button.Background>
+            </Button>
+
+            <Rectangle Height="120" Width="120" Grid.Row="0" Grid.Column="2">
+                <Rectangle.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Hands-Two-fingers-icon.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button x:ConnectionId='7' x:Name="_double" Height="120" Width="120" Grid.Row="0" Grid.Column="2"  BorderThickness="0" Style="{StaticResource zerodeep1}"                      >
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Hands-Two-fingers-icon.png"/>
+                </Button.Background>
+            </Button>
+
+            <Rectangle Height="120" Width="120" Grid.Row="0" Grid.Column="3">
+                <Rectangle.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Hands-Three-fingers-icon.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button x:ConnectionId='8' x:Name="triple" Height="120" Width="120" Grid.Row="0" Grid.Column="3"  BorderThickness="0" Style="{StaticResource zerodeep1}"                      >
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Hands-Three-fingers-icon.png"/>
+                </Button.Background>
+            </Button>
+
+            <Rectangle Height="120" Width="120" Grid.Row="0" Grid.Column="4">
+                <Rectangle.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Hands-Four-fingers-icon.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button x:ConnectionId='9' x:Name="four" Height="120" Width="120" Grid.Row="0" Grid.Column="4"  BorderThickness="0" Style="{StaticResource zerodeep1}"                    >
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Hands-Four-fingers-icon.png"/>
+                </Button.Background>
+            </Button>
+
+            <Rectangle Height="120" Width="120" Grid.Row="0" Grid.Column="5">
+                <Rectangle.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Hands-Thumb-up-icon.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button x:ConnectionId='10' x:Name="six" Height="120" Width="120" Grid.Row="0" Grid.Column="5"  BorderThickness="0" Style="{StaticResource zerodeep1}"                   >
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Hands-Thumb-up-icon.png"/>
+                </Button.Background>
+            </Button>
+
+
+        </Grid>
+
+        
+        <Border BorderThickness="1" BorderBrush="Black" Height="25" Width="110" Background="LightBlue"
+                HorizontalAlignment="Left"  Margin="330,172,0,0" VerticalAlignment="Top" CornerRadius="5">
+        </Border>
+        <TextBlock Text="DOT" Foreground="Black" FontSize="20"  TextAlignment="Center" HorizontalAlignment="Left" Margin="325,172,0,0" Width="120" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Plantagenet Cherokee" />
+        
+        <Border BorderThickness="1" BorderBrush="Black" Height="25" Width="110" Background="LightBlue"
+                HorizontalAlignment="Left"  Margin="455,172,0,0" VerticalAlignment="Top" CornerRadius="5">
+        </Border>
+        <TextBlock Text="   ONE" Foreground="Black" FontSize="20"  TextAlignment="Center" HorizontalAlignment="Left" Margin="445,172,0,0" Width="120" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Plantagenet Cherokee" />
+
+        <Border BorderThickness="1" BorderBrush="Black" Height="25" Width="110" Background="LightBlue"
+                HorizontalAlignment="Left"  Margin="575,172,0,0" VerticalAlignment="Top" CornerRadius="5">
+        </Border>
+        <TextBlock Text="   TWO" Foreground="Black" FontSize="20"  TextAlignment="Center" HorizontalAlignment="Left" Margin="565,172,0,0" Width="120" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Plantagenet Cherokee" />
+
+        <Border BorderThickness="1" BorderBrush="Black" Height="25" Width="110" Background="LightBlue"
+                HorizontalAlignment="Left"  Margin="695,172,0,0" VerticalAlignment="Top" CornerRadius="5">
+        </Border>
+        <TextBlock Text="   THREE" Foreground="Black" FontSize="20"  TextAlignment="Center" HorizontalAlignment="Left" Margin="685,172,0,0" Width="120" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Plantagenet Cherokee" />
+
+        <Border BorderThickness="1" BorderBrush="Black" Height="25" Width="110" Background="LightBlue"
+                HorizontalAlignment="Left"  Margin="815,172,0,0" VerticalAlignment="Top" CornerRadius="5">
+        </Border>
+        <TextBlock Text="   FOUR" Foreground="Black" FontSize="20"  TextAlignment="Center" HorizontalAlignment="Left" Margin="805,172,0,0" Width="120" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Plantagenet Cherokee" />
+
+        <Border BorderThickness="1" BorderBrush="Black" Height="25" Width="110" Background="LightBlue"
+                HorizontalAlignment="Left"  Margin="935,172,0,0" VerticalAlignment="Top" CornerRadius="5">
+        </Border>
+        <TextBlock Text="  SIX" Foreground="Black" FontSize="20"  TextAlignment="Center" HorizontalAlignment="Left" Margin="925,172,0,0" Width="120" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Plantagenet Cherokee" />
+
+
+        <Border x:Name="uchoice_border" BorderThickness="2" BorderBrush="Black"
+                HorizontalAlignment="Left" Height="280" Margin="142,240,0,0" VerticalAlignment="Top" Width="296"
+                Visibility="Collapsed" Background="White" CornerRadius="15" >
+
+            <Image Name="user" HorizontalAlignment="Left" Height="270" Margin="0,0,0,0" VerticalAlignment="Top" Width="286"/>
+
+
+        </Border>
+
+        <Border x:Name="uname_border" BorderThickness="2" BorderBrush="Black"
+                HorizontalAlignment="Left" Height="280" Margin="142,240,0,0" VerticalAlignment="Top" Width="296"
+                Visibility="Visible" Background="White" CornerRadius="15">
+
+            <TextBlock x:Name="usertext" Text="" FontSize="40" Foreground="Black" HorizontalAlignment="Center" Height="80" Margin="0,104,0,86" VerticalAlignment="Center" Width="286" TextAlignment="Center"/>
+
+        </Border>
+
+        <Rectangle x:Name="icon1" HorizontalAlignment="Left" Height="55" Margin="370,446,0,0" VerticalAlignment="Top" Width="55" Visibility="Collapsed">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/Cricket-icon.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+
+
+        <Border x:Name="cchoice_border" BorderThickness="2" BorderBrush="Black"
+                 HorizontalAlignment="Left" Height="280" Margin="942,240,0,0" VerticalAlignment="Top" Width="296"
+                Visibility="Collapsed" Background="White" CornerRadius="15">
+
+            <Image Name="computer" HorizontalAlignment="Left" Height="270" Margin="0,0,0,0" VerticalAlignment="Top" Width="286"/>
+
+        </Border>
+
+
+        <Border x:Name="cname_border" BorderThickness="2" BorderBrush="Black"
+                HorizontalAlignment="Left" Height="280" Margin="942,240,0,0" VerticalAlignment="Top" Width="296"
+                Visibility="Visible" Background="White" CornerRadius="15">
+
+            <TextBlock x:Name="comptext" Text="Computer" FontSize="40" Foreground="Black" HorizontalAlignment="Center" Height="80" Margin="0,104,0,86" VerticalAlignment="Center" Width="286" TextAlignment="Center"/>
+
+        </Border>
+
+        <Rectangle x:Name="icon2" HorizontalAlignment="Left" Height="55" Margin="1172,446,0,0" VerticalAlignment="Top" Width="55" Visibility="Collapsed">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/Cricket-icon.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+
+
+        <Rectangle x:Name="arrow" HorizontalAlignment="Left" Height="103" Margin="118,80,0,0" VerticalAlignment="Top" Width="189" Visibility="Collapsed">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/arrow.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <!--this just points to the options-->
+
+
+        <MediaElement x:Name="chimes" HorizontalAlignment="Left" Height="100" Margin="1216,72,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Windows Error.wav" AutoPlay="False"/>
+
+
+        <Border x:Name="thisballborder" BorderThickness="2" BorderBrush="Black"
+                HorizontalAlignment="Left" Height="185" Margin="563,280,0,0" VerticalAlignment="Top" Width="214"
+                Visibility="Visible" Background="White" CornerRadius="15">
+
+
+            <Grid x:Name="thisballgrid" HorizontalAlignment="Center" Height="185" Margin="0,0,0,0" VerticalAlignment="Center" Width="214">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="59*"/>
+                    <RowDefinition Height="127*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="214"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock x:Name="dis" Text="Current Ball" FontSize="30" TextAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Width="214" Height="39" Grid.Row="0" Grid.Column="0" Foreground="Black" />
+
+                <TextBlock x:Name="scoredis" Text="" FontSize="100" TextAlignment="Center"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="0" Foreground="red" />
+
+            </Grid>
+
+        </Border>
+
+
+
+
+        <Border x:Name="boardborder" BorderThickness="2" BorderBrush="Black"
+                HorizontalAlignment="Left" Height="124" Margin="267,613,0,0" VerticalAlignment="Top" Width="869"
+                Visibility="Visible" Background="White" CornerRadius="15">
+
+            <Grid x:Name="boardgrid" HorizontalAlignment="Center" Height="124" Margin="0,0,0,0" VerticalAlignment="Center" Width="869">
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="42*"/>
+                    <RowDefinition Height="41*"/>
+                    <RowDefinition Height="41*"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="291*"/>
+                    <ColumnDefinition Width="289*"/>
+                    <ColumnDefinition Width="289*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <TextBlock x:Name="scoreboardtext" Text="Scoreboard" FontSize="40" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" TextAlignment="Center" Foreground="Red" Margin="0" />
+                <TextBlock x:Name="disusername" Text="" FontSize="32" Grid.Row="1" Grid.Column="0" TextAlignment="Center" Foreground="Black" />
+                <TextBlock x:Name="discomp" Text="Computer" FontSize="32" Grid.Row="2" Grid.Column="0" TextAlignment="Center" Foreground="Black" />
+                <TextBlock x:Name="disuserrun" Text="run :   -" FontSize="32" Grid.Row="1" Grid.Column="1" TextAlignment="Center" Foreground="Black" />
+                <TextBlock x:Name="discomprun" Text="run :   -" FontSize="32" Grid.Row="2" Grid.Column="1" TextAlignment="Center" Foreground="Black" />
+                <TextBlock x:Name="disuserwicket" Text="wicket :   -" FontSize="32" Grid.Row="1" Grid.Column="2" TextAlignment="Center" Foreground="Black" />
+                <TextBlock x:Name="discompwicket" Text="wicket :   -" FontSize="32" Grid.Row="2" Grid.Column="2" TextAlignment="Center" Foreground="Black" />
+
+            </Grid>
+
+        </Border>
+
+        <Canvas x:Name="wicketcanvas"  HorizontalAlignment="Stretch" Height="160" Margin="0,294,0,0" VerticalAlignment="Top" Background="Green" Visibility="Collapsed">
+            <TextBlock x:Name="wicketdialog" Canvas.Left="34" Foreground="White" FontSize="50" TextAlignment="Center" TextWrapping="Wrap" Text="" Canvas.Top="48" Height="89" Width="979"/>
+            <Button x:ConnectionId='3' x:Name="nextball" Content="Ok" Canvas.Left="1130" Canvas.Top="90" Width="92" FontSize="25" Height="50"                        Visibility="Visible" Style="{StaticResource nextballsagar}"/>
+            <HyperlinkButton x:ConnectionId='4' x:Name="nextpage" Content="Next" Canvas.Left="1152" Canvas.Top="90" Width="92" FontSize="25" Height="50"                        Visibility="Collapsed" BorderBrush="White" BorderThickness="2" Foreground="White"/>
+        </Canvas>
+
+        <Button x:ConnectionId='2' x:Name="next" Content="Next Ball" HorizontalAlignment="Left" Margin="576,477,0,0" Background="Blue" Foreground="White" FontSize="20" VerticalAlignment="Top" Width="190" Style="{StaticResource sagarnext}"                    Visibility="Collapsed"/>
+
+        <TextBlock x:Name="comment" Text="" TextAlignment="Center" FontSize="40" Foreground="Black" Margin="267,531,230,164" />
+
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,194 @@
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\App.xbf
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\MainPage.xbf
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.exe
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.pdb
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\resources.pri
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\AppxManifest.xml
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.build.appxrecipe
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\App.g.i.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\App.g.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.g.i.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.g.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\XamlTypeInfo.g.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\App.xaml
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\App.xbf
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\XamlSaveStateFile.xml
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.xaml
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.xbf
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\hand cricket.exe
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\hand cricket.pdb
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\priconfig.xml
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\priconfig.xml.intermediate
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\layout.resfiles
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\layout.resfiles.intermediate
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\resources.resfiles
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\resources.resfiles.intermediate
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\pri.resfiles
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\pri.resfiles.intermediate
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\qualifiers.txt
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\qualifiers.txt.intermediate
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\ProjectArchitectures.txt
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\toss.xbf
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.g.i.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.g.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.xaml
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.xbf
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.g.i.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.g.cs
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\entry.xbf
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.xaml
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.xbf
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\game.g.i.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\game.g.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\game.xaml
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\game.xbf
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\game.xbf
+D:\hand cricket app\hand cricket\hand cricket\bin\Debug\summary.xbf
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.g.i.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.g.cs
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.xaml
+D:\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\App.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\About us.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\Credits.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\entry.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\game.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\Help.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\MainPage.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\Privacy Policy.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\summary.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\toss.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.exe
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.pdb
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\resources.pri
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\AppxManifest.xml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.build.appxrecipe
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\App.g.i.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\App.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\About us.g.i.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\About us.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Credits.g.i.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Credits.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.g.i.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\game.g.i.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\game.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Help.g.i.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Help.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.g.i.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Privacy Policy.g.i.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Privacy Policy.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.g.i.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.g.i.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\XamlTypeInfo.g.cs
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\App.xaml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\About us.xaml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Credits.xaml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.xaml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\game.xaml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Help.xaml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.xaml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Privacy Policy.xaml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.xaml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.xaml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\App.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\About us.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Credits.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\game.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Help.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\Privacy Policy.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.xbf
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\XamlSaveStateFile.xml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\hand cricket.exe
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\hand cricket.pdb
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\priconfig.xml
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\priconfig.xml.intermediate
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\layout.resfiles
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\layout.resfiles.intermediate
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\resources.resfiles
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\resources.resfiles.intermediate
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\pri.resfiles
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\pri.resfiles.intermediate
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\qualifiers.txt
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\qualifiers.txt.intermediate
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\VS apps\win\hand cricket app\hand cricket\hand cricket\obj\Debug\ProjectArchitectures.txt
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\App.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\About us.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\Credits.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\entry.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\game.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\Help.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\MainPage.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\Privacy Policy.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\summary.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\toss.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.xr.xml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.exe
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.pdb
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\resources.pri
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\AppxManifest.xml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\bin\Debug\hand cricket.build.appxrecipe
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\App.g.i.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\App.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\About us.g.i.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\About us.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Credits.g.i.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Credits.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.g.i.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\game.g.i.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\game.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Help.g.i.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Help.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.g.i.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Privacy Policy.g.i.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Privacy Policy.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.g.i.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.g.i.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\XamlTypeInfo.g.cs
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\App.xaml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\About us.xaml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Credits.xaml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.xaml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\game.xaml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Help.xaml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.xaml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Privacy Policy.xaml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.xaml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.xaml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\App.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\About us.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Credits.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\entry.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\game.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Help.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\MainPage.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\Privacy Policy.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\summary.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\toss.xbf
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\XamlSaveStateFile.xml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\hand cricket.exe
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\hand cricket.pdb
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\priconfig.xml
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\priconfig.xml.intermediate
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\layout.resfiles
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\layout.resfiles.intermediate
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\resources.resfiles
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\resources.resfiles.intermediate
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\pri.resfiles
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\pri.resfiles.intermediate
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\qualifiers.txt
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\qualifiers.txt.intermediate
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\VS apps\windows\hand cricket app\hand cricket\hand cricket\obj\Debug\ProjectArchitectures.txt
